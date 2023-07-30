@@ -1,3 +1,7 @@
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
 .H2 {
   color: #FF7A00;
   gap: 33px;
@@ -30,14 +34,16 @@ h4 {
 }
 
 .dx2 {
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: 60px;
   border-radius: 26px;
   background-color: #f7ad22;
-  color: #000; 
+  color: #000;
   padding: 35px 100px;
   text-align: center;
   display: inline-block;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
 .dx2:hover {
@@ -52,7 +58,7 @@ h4 {
   display: flex;
 }
 
-.flex-container > div {
+.flex-container>div {
   margin: 10px;
   padding: 20px;
   font-size: 20px;
@@ -83,18 +89,20 @@ h4 {
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
-.flex-item:hover{
+
+.flex-item:hover {
   background-color: rgb(195, 195, 195);
 }
 
 .dx1 {
   border-radius: 26px;
   background-color: #f7ad22;
-  color: #000; 
+  color: #000;
   padding: 15px 45px;
   text-align: center;
   display: inline-block;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
 .dx1:hover {
@@ -124,9 +132,15 @@ h4 {
 }
 
 .container-02 {
+  display: inline-block;
   padding: 10px;
-  display: flex;
+  text-align: center;
+  width: 100%;
+}
 
+.container-center {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .container-02-item {
@@ -136,10 +150,11 @@ h4 {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   width: 326px;
   height: 266px;
-  margin: 60px;
   padding: 20px;
   font-size: 12px;
   transition: background-color 0.3s ease;
+  margin: 10px 10px 30px 10px;
+  text-align: left;
 }
 
 .container-02-item:hover {
@@ -162,7 +177,7 @@ h4 {
   display: flex;
 }
 
-.container-03 > div {
+.container-03>div {
   padding-top: 30px;
   color: #000;
   text-align: justify;
@@ -184,10 +199,10 @@ footer {
 .container-footer {
   display: flex;
   background: #1E1E1E;
-  
+
 }
 
-.container-footer > div {
+.container-footer>div {
   color: white;
   width: 400px;
   margin: 10px;
@@ -199,8 +214,29 @@ footer {
 .hr {
   color: aliceblue;
 }
+
 .copyright {
   color: white;
   text-align: center;
 }
 
+.facebook-link {
+  color: rgb(59, 89, 152);
+}
+
+.facebook-link:active,
+.youtube-link:active {
+  color: white;
+}
+
+.youtube-link {
+  color: rgb(196, 48, 43);
+}
+
+.twitter-link {
+  color: rgb(29, 161, 242);
+}
+
+.instagram-link {
+  color: #593DC5;
+}
